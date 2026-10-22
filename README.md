@@ -12,9 +12,11 @@ The experience is written and designed by **Christopher Hayes, CDAIO, MPS DAV, M
 
 ## Live experience
 
-After GitHub Pages is enabled, add the published link here:
+### [Open The Face Value of AI interactive experience](https://chrisdhayes.github.io/the-face-value-of-ai/)
 
-`https://<github-username>.github.io/<repository-name>/`
+Explore the research, test the hypothetical screening scenarios, and examine the governance questions that emerge when AI moves from observation to prediction and action.
+
+> **Educational use only:** This interactive experience is not medical advice, a diagnostic tool, clinical decision-support system or medical device.
 
 ## What the experience covers
 
@@ -69,27 +71,9 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000` in a browser.
 
-## Publish with GitHub Pages
-
-1. Create a new GitHub repository.
-2. Add `index.html` and `README.md` at the repository root.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and the `/ (root)` folder, then save.
-6. After publication, replace the placeholder in the **Live experience** section with the GitHub Pages URL.
-
 ## Accessibility and interaction
 
-The page includes:
-
-- a skip link;
-- keyboard focus states;
-- semantic section headings;
-- descriptive labels for interactive controls;
-- live-region updates for simulator results;
-- reduced-motion support;
-- mobile and print layouts;
-- a no-JavaScript notice.
+The page includes a skip link, keyboard focus states, semantic section headings, descriptive labels for interactive controls, live-region updates, reduced-motion support, mobile and print layouts, and a no-JavaScript notice.
 
 Accessibility should still be tested with keyboard-only navigation and at least one screen reader before public release.
 
